@@ -1,4 +1,5 @@
-import sumar from "./fizzbuzz.js"
+import generar from "./fizzbuzz.js"
+
 
 describe("FizzBuzz", () => {
     it ("Deberia generar la cadena '1' para el numero '1' ", ()=>
@@ -20,7 +21,7 @@ describe("FizzBuzz", () => {
     it ("Deberia generar la cadena 'Fizz' para el numero '3' ", ()=>
     {
         const result =generar(3);
-        expect (result).toEqual("2");
+        expect (result).toEqual("Fizz");
     });
 });
 
